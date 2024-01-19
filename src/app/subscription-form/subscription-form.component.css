@@ -4,12 +4,6 @@
     width: 1200px;
 }
 
-.btn-sub{
-    height: 58px;
-    border : none;
-    font-size: 13px;
-    background-color: var(--primary-color);
-}
 
 .subs-text{
     width: 600px;
