@@ -1,1 +1,36 @@
-<p>single-post works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="card shadow-effect" style="border: none;">
+                <img src="https://static7.depositphotos.com/1062035/744/i/380/depositphotos_7447492-stock-photo-luxury-cherry-red-car.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <small class="bg-light text-danger text-center"> Design </small>
+                    <small class="bg-light text-success text-center ml-2"> Featured </small>
+                    <small class="bg-light text-info text-center ml-2"> Views - 199,300 </small>
+                    <small class="bg-light text-warning text-center ml-2"> LAST UPDATED - JAN 19, 2024 </small>
+                
+                    <h1 class="mt-3 mb-3">what is your bootstrap module which loads your application?</h1>
+                    <P>if you want to declare components in one module and use them in another module you need to export them so that when you will import the module in another module, it will understand that these will be used from another module.
+                        so in your app.module.ts declare and also export them so that the index module should understand that these are from other modules.
+                        I would say make your app module as a bootstrap module and make a shared module and declare all component, pipes, directive and export them. and in your app module import the shared module and use all the components.
+                    </P>
+
+                </div>
+            </div>
+
+            <app-comment-form></app-comment-form>
+
+        </div>
+        <div class="col-md-3">
+            <div class="mb-3">
+                <app-post-card></app-post-card>
+            </div>
+            <div class="mb-3">
+                <app-post-card></app-post-card>
+            </div>
+            <div class="mb-3">
+                <app-post-card></app-post-card>
+            </div>
+        </div>
+    </div>
+</div>
